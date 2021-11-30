@@ -10,6 +10,25 @@ int main(){
 	double gpa[] = {1.50,2.12,4.00,3.69,2.50,2.76,3.54,2.14,3.50,1.88};
 
     //Write your code here.
+	int Num=0;
+	double Grade;
+
+	cout << "Please input GPA: ";
+	cin >> Grade;
+
+	while( Num < 10)
+	{
+
+		if(gpa[Num] >= Grade)
+		{
+
+			cout << id[Num] << " " << name[Num] << " " << gpa[Num] << "\n";
+
+		}
+
+		Num++;
+
+	}
 		
 	return 0;
 }
